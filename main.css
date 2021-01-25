@@ -452,7 +452,7 @@ header {
     position: relative;
 }
 
-.home-tenants .view-all::after {
+.view-all::after {
     content: "";
     position: absolute;
     left: 474px;
@@ -462,7 +462,7 @@ header {
     width: 197px;
 }
 
-.home-tenants .view-all::before {
+.view-all::before {
     content: "";
     position: absolute;
     border: solid #AD7F00;
