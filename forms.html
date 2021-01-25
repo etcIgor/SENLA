@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="forms.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <!-- Home start -->
+    <!-- 12 -->
+    <div class="home">
+        <div class="wrapper">
+            <h3 class="form__title">Забрать домой</h3>
+            <div class="home__pet">
+                <img src="img/forms-img.svg" alt="home__pet" class="home__pet-img">
+                <div class="home__pet-data">
+                    <h4 class="name">Моник</h4>
+                    <span class="age">Мальчик, 7 месяцев</span>
+                </div>
+            </div>
+            <p class="form__text"> Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы
+                сможете
+                забрать себе питомца. </p>
+            <form>
+                <fieldset class="form__block">
+                    <label for="user" class="form__block-field">
+                        <input type="text" id="user" name="user" required />
+                        <span class="placeholder">Фамилия и имя</span>
+                    </label>
+                    <label for="tel" class="form__block-field">
+                        <input type="tel" class="tel" id="tel" name="tel" required />
+                        <span class="placeholder">Номер телефона</span>
+                    </label>
+                    <textarea name="" id="" class="textarea" placeholder="Замечания"></textarea>
+                    <ul class="form__block-contacts">
+                        <li> Если у вас есть вопросы, можете позвонить нам: </li>
+                        <li> +375 (33) 6237879 Лена </li>
+                        <li> +375 (29) 7877791 Ольга </li>
+                        <li> +375 (29) 5837015 Ритa </li>
+                    </ul>
+                    <div class="buttons">
+                        <button type="submit" class="send">Отправить</button>
+                        <button type="button" class="cancel">Отмена</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- Home end -->
+
+    <!-- Home-2 start -->
+    <div class="home-2">
+        <div class="wrapper">
+            <h3 class="form__title">Забрать на передержку</h3>
+            <div class="home__pet">
+                <img src="img/forms-img.svg" alt="home__pet" class="home__pet-img">
+                <div class="home__pet-data">
+                    <h4 class="name">Моник</h4>
+                    <span class="age">Мальчик, 7 месяцев</span>
+                </div>
+            </div>
+            <p class="form__text"> Оставьте информацию о себе. Мы позвоним вам и договоримся, когда вы
+                сможете
+                забрать себе питомца на передержку. </p>
+            <form class="home__data">
+                <fieldset class="form__block">
+                    <label for="home-2-user" class="form__block-field">
+                        <input type="text" id="home-2-user" name="home-2-use" required />
+                        <span class="placeholder">Фамилия и имя</span>
+                    </label>
+                    <label for="home-2-tel" class="form__block-field">
+                        <input type="tel" id="home-2-tel" name="home-2-tel" required />
+                        <span class="placeholder">Номер телефона</span>
+                    </label>
+                    <span class="required">Обязательное поле для заполнения</span>
+                    <textarea name="" id="" class="textarea" placeholder="Замечания"></textarea>
+                    <ul class="form__block-contacts">
+                        <li> Если у вас есть вопросы, можете позвонить нам: </li>
+                        <li> +375 (33) 6237879 Лена </li>
+                        <li> +375 (29) 7877791 Ольга </li>
+                        <li> +3F75 (29) 5837015 Рита </li>
+                    </ul>
+                    <p class="p1">Наши волонтеры будут активно искать будущий дом хвостику, пока вы помогаете
+                        нам с
+                        передержкой.</p>
+                    <p class="p2">Спасибо за помощь!</p>
+                    <div class="buttons">
+                        <button type="submit" class="send">Отправить</button>
+                        <button type="button" class="cancel">Отмена</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- Home-2 end -->
+
+    <!-- Autohelp start -->
+    <div class="autohelp">
+        <div class="wrapper">
+            <h3 class="form__title">Автопомощь</h3>
+            <span class="application">Заявка</span>
+            <p class="form__text"> Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима
+                помощь в транспортировке, мы позвоним вам. </p>
+            <form class="form__block">
+                <fieldset class="form__block">
+                    <label for="autohelp-user" class="form__block-field">
+                        <input type="text" id="autohelp-user" name="autohelp-user" required />
+                        <span class="placeholder">Фамилия и имя</span>
+                    </label>
+
+                    <label for="autohelp-tel" class="form__block-field">
+                        <input type="tel" class="autohelp-tel" id="autohelp-tel" name="autohelp-tel" required />
+                        <span class="placeholder">Номер телефона</span>
+                    </label>
+                    <span class="required">Обязательное поле для заполнения</span>
+                    <div class="checkbox">
+                        <span class="autochoice">Выберите вид автопомощи</span>
+                        <label class="checkbox___wrapper first">
+                            <input type="checkbox" id="cb1" name="checkbox" value="1">
+                            <p>Доставка еды, медикаментов и других небольших вещей</p>
+                            <span class="checkmark"> </span>
+                        </label>
+                        <label class="checkbox___wrapper">
+                            <input type="checkbox" id="cb2" name="checkbox" value="2">
+                            <p>Доставка сена или соломы, строительных материлов
+                                для будок и других крупногабаритных вещей</p>
+                            <span class="checkmark"> </span>
+                        </label>
+                        <label class="checkbox___wrapper">
+                            <input type="checkbox" id="cb4" name="checkbox" value="4">
+                            <p>Транспортировка небольших собак и котов</p>
+                            <span class="checkmark"> </span>
+                        </label>
+                        <label class="checkbox___wrapper">
+                            <input type="checkbox" id="cb5" name="checkbox" value="5">
+                            <p>Транспортировка больших собак</p>
+                            <span class="checkmark"> </span>
+                        </label>
+                    </div>
+                    <textarea name="" id="" class="textarea" placeholder="Замечания"></textarea>
+                    <div class="buttons">
+                        <button type="submit" class="send">Отправить</button>
+                        <button type="button" class="cancel">Отмена</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- Autohelp end -->
+
+    <!-- Volunt start -->
+    <div class="volunt">
+        <div class="volunt__wrapper">
+            <h3 class="form__title">Волонтерство</h3>
+            <span class="application">Заявка</span>
+            <p class="form__text"> Отправьте нам заявку о том, что готовы помочь. Когда нам будет необходима
+                помощь в транспортировке, мы позвоним вам. </p>
+            <form class="form__block">
+                <fieldset class="form__block">
+                    <label for="volunt-user" class="form__block-field">
+                        <input type="text" id="volunt-user" name="volunt-user" required />
+                        <span class="placeholder">Фамилия и имя</span>
+                    </label>
+                    <label for="volunt-tel" class="form__block-field">
+                        <input type="tel" id="volunt-tel" name="volunt-tel" required />
+                        <span class="placeholder">Номер телефона</span>
+                    </label>
+                    <span class="required">Обязательное поле для заполнения</span>
+                    <div class="rButtons">
+                        <label class="rButtons___wrapper">
+                            <input type="radio" class="radio" id="always" name="radio" value="always" checked>
+                            <p>Хочу помогать на постоянной основе (расписание можно подобрать
+                                так,
+                                как будет
+                                вам
+                                удобно)</p>
+                            <span class="radiomark"> </span>
+                        </label>
+                        <label class="rButtons___wrapper">
+                            <input type="radio" id="sometimes" name="radio" value="sometimes">
+                            <p>Готов помогать иногда. Хочу выбрать удобное для меня время</p>
+                            <span class="radiomark"> </span>
+                        </label>
+                    </div>
+                    <textarea name="" id="" class="textarea" placeholder="Замечания"></textarea>
+                    <div class="buttons">
+                        <button type="submit" class="send">Оставить заявку</button>
+                        <button type="button" class="cancel">Отмена</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- Volunt end -->
+
+</body>
+
+</html>
