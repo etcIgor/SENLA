@@ -45,16 +45,21 @@ p {
 }
 
 .wrapper {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.wrapper2 {
     width: 1146px;
     margin: 0 auto;
 }
 
 .wrapper-full {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
-/* Header start */
+/* Header */
 
 header {
     background: #F6F6F6;
@@ -213,18 +218,15 @@ header {
     z-index: 1;
 }
 
-/* Header end */
-
-/* Hearts start */
+/* Hearts*/
 
 .hearts {
     padding: 54px 0 75px 0;
 }
 
-.hearts__wrapper {
+.wrapper-full.hearts {
     display: flex;
-    width: 1920px;
-    margin: 0 auto;
+    padding: 0;
 }
 
 .hearts__img {
@@ -266,13 +268,16 @@ header {
     line-height: 140%;
 }
 
-/* Hearts end */
-
-/* Help start */
+/* Help */
 
 .help {
     padding: 80px 0 71px 0;
     background: #F6F6F6;
+}
+
+.help__wrapper {
+    max-width: 1146px;
+    margin: 0 auto;
 }
 
 .help__title {
@@ -310,13 +315,16 @@ header {
     color: #474747;
 }
 
-/* Help end */
-
-/* Home start */
+/* Home */
 
 .home {
     padding-bottom: 76px;
     background: #F6F6F6;
+}
+
+.home__wrapper {
+    max-width: 1146px;
+    margin: 0 auto;
 }
 
 .logo-title {
@@ -500,9 +508,7 @@ header {
     margin-left: 32px;
 }
 
-/* Home end */
-
-/* Finance start */
+/* Finance */
 
 .finance {
     padding-top: 46px;
@@ -527,6 +533,11 @@ header {
     font-size: 18px;
     line-height: 24px;
     color: #6B6B6B;
+}
+
+.finance__wrapper {
+    width: 875px;
+    margin: 40px auto 0 197px;
     margin: 24px auto 0 20px;
 }
 
@@ -559,9 +570,7 @@ header {
     width: 223px;
 }
 
-/* Finance end */
-
-/* Goods start */
+/* Goods */
 
 .goods {
     background: #F6F6F6;
@@ -622,32 +631,28 @@ header {
     color: #6F6C6C;
 }
 
-/* Goods end */
-
-/* Autohelp start */
+/* Autohelp */
 
 .autohelp {
     background: #F6F6F6;
 }
 
-.autohelp__block {
+.autohelp__wrapper {
     width: 680px;
     margin: 45px 538px 0 694px;
     line-height: 140%;
 }
 
-.autohelp__block-text {
+.autohelp__wrapper-text {
     margin-top: 24px;
 }
 
-.autohelp__block .buttons-1 {
+.autohelp__wrapper .buttons-1 {
     margin-top: 24px;
     width: 223px;
 }
 
-/* Autohelp end */
-
-/* Volunt start */
+/* Volunt */
 
 .volunt {
     padding: 82px 0 50px 0;
@@ -690,9 +695,7 @@ header {
     width: 223px;
 }
 
-/* Volunt end */
-
-/* News start */
+/* News */
 
 .news {
     padding-top: 54px;
@@ -706,6 +709,7 @@ header {
 }
 
 .news__wrapper {
+    width: 778px;
     margin: 0px 538px 0px 604px;
 }
 
@@ -748,9 +752,7 @@ header {
     width: 206px;
 }
 
-/* News end */
-
-/* About start */
+/* About */
 
 .about {
     background: #F6F6F6;
@@ -843,11 +845,13 @@ header {
     padding: 303px 886px 284px 134px;
 }
 
-/* About end */
-
-/* Thanks start */
+/* Thanks */
 
 .thanks {
+    background: #F6F6F6;
+}
+
+.thanks__wrapper {
     background: url(img/thanks-bg.jpg) no-repeat;
     height: 741px;
     padding-top: 119px;
@@ -891,20 +895,20 @@ header {
     width: 346px;
 }
 
-/* Thanks end */
-
-/* Footer start */
+/* Footer */
 
 .footer {
-    width: 1145px;
     padding: 0 auto;
-    margin: 40px auto 0;
     padding-bottom: 16px;
+    background: #F6F6F6;
+    padding-top: 40px;
 }
 
 .footer__links {
+    align-content: center;
     display: flex;
     list-style-type: none;
+    justify-content: center;
 }
 
 .footer__legend {
@@ -949,4 +953,8 @@ header {
     height: 1px;
 }
 
-/* Footer end */
+@media screen and (max-width: 639) {
+    /*  .hearts__wrapper {
+        max-width: 1366px;
+    } */
+}
