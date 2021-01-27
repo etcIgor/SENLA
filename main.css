@@ -198,11 +198,11 @@ header {
 }
 
 .content__inscription {
-    width: 772px;
+    max-width: 772px;
     height: 404px;
     position: absolute;
     left: -110px;
-    top: 392px;
+    top: 370px;
 }
 
 .buttons-box__outer {
@@ -272,7 +272,6 @@ header {
 
 .hearts__text {
     margin: 74px 507px auto 94px;
-    width: 466px;
 }
 
 .hearts__text h3 {
@@ -350,37 +349,32 @@ header {
 }
 
 .logo-title {
-    width: 1920px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
-    position: relative;
-}
-
-.logo-title::after {
-    content: "";
-    position: absolute;
-    width: 807px;
-    right: 0px;
-    top: 50%;
-    border: 1px solid #EEBF3A;
+    align-items: center;
 }
 
 .logo-title::before {
     content: "";
-    position: absolute;
-    width: 807px;
-    right: 830px;
-    top: 50%;
-    left: 0;
+    width: 100%;
     border: 1px solid #EEBF3A;
+}
+
+.logo-title::after {
+    content: "";
+    width: 100%;
+    border: 1px solid #EEBF3A;
+}
+
+.logo-img {
+    margin: 0 58px;
 }
 
 .home__intro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 97px;
-    margin: 72px 74px 72px 197px;
+    margin: 72px 74px 0 197px;
 }
 
 .home__intro-col p {
@@ -390,6 +384,7 @@ header {
 .home__title {
     font-weight: 300;
     text-align: center;
+    margin-top: 72px;
 }
 
 .home__block {
@@ -504,10 +499,10 @@ header {
 }
 
 .home__footer {
-    width: 779px;
-    margin: 64px auto 0px;
+    margin-top: 64px;
     display: flex;
     height: 63px;
+    justify-content: center;
 }
 
 .home__footer-text {
@@ -553,11 +548,12 @@ header {
 .finance__title {
     text-align: center;
     margin: 57px auto 0 20px;
-    width: 758px;
+    max-width: 758px;
 }
 
 .finance__text {
-    width: 758px;
+    margin-top: 24px;
+    max-width: 758px;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
@@ -636,7 +632,6 @@ header {
 }
 
 .goods__block {
-    width: 678px;
     margin: 53px 540px 0 702px;
     line-height: 140%;
 }
@@ -695,7 +690,7 @@ header {
 }
 
 .autohelp__wrapper {
-    width: 680px;
+    max-width: 688px;
     margin: 45px 538px 0 694px;
     line-height: 140%;
 }
@@ -716,7 +711,6 @@ header {
 }
 
 .volunt__text {
-    width: 466px;
     margin: 113px 507px 112px 77px;
 }
 
@@ -768,7 +762,6 @@ header {
 }
 
 .news__wrapper {
-    width: 778px;
     margin: 0px 538px 0px 604px;
 }
 
