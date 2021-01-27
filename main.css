@@ -347,6 +347,10 @@ header {
     margin: 0 auto;
 }
 
+.logo{
+    width: 80px;
+}
+
 .logo-title {
     display: flex;
     justify-content: center;
