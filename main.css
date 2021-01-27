@@ -205,29 +205,36 @@ header {
     top: 392px;
 }
 
-.buttons-1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    width: 182px;
+.buttons-box__outer {
     height: 42px;
+    width: 183px;
     margin-top: 44px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: black;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(180deg, #FFDE89 0%, #FFCB38 100%);
+    box-shadow: 7px 7px 16px #E3E3E3, -3px -4px 8px rgba(255, 255, 255, 0.9), inset 13px 22px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 58px;
+}
+
+.buttons-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    width: 173px;
+    height: 32px;
     background: #FBC832;
     border-radius: 58px;
-    border: none;
     font-family: Gilroy;
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
-    text-decoration-line: none;
-}
-
-.main-menu__content .buttons-1 {
-    position: relative;
-    z-index: 1;
+    background: linear-gradient(180deg, #FFECB5 0%, #FFE69F 0.01%, #FFD45A 100%);
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    text-decoration: none;
+    color: #242424;
+    border: none;
 }
 
 /* Hearts*/
@@ -311,13 +318,16 @@ header {
 }
 
 .help__item-icon {
-    border: 2px solid #FFC41E;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    background: #F6F6F6;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 6px 6px 16px rgba(224, 224, 224, 0.6), -6px -6px 16px rgba(255, 255, 255, 0.77);
 }
 
 .help__item .subline {
@@ -585,9 +595,15 @@ header {
     line-height: 140%;
 }
 
-.finance__col.left .buttons-1 {
-    margin-top: 24px;
-    width: 223px;
+.finance .buttons-box__outer, .autohelp .buttons-box__outer, .volunt .buttons-box__outer {
+    width: 221px;
+}
+
+.finance .buttons-box__outer .buttons-1, .autohelp .buttons-box__outer .buttons-1, .volunt .buttons-box__outer {
+    display: flex;
+    width: 211px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Goods */
@@ -667,11 +683,6 @@ header {
     margin-top: 24px;
 }
 
-.autohelp__wrapper .buttons-1 {
-    margin-top: 24px;
-    width: 223px;
-}
-
 /* Volunt */
 
 .volunt {
@@ -715,8 +726,11 @@ header {
 }
 
 .volunt__text .buttons-1 {
-    margin-top: 24px;
-    width: 223px;
+    width: 211px;
+}
+
+.volunt__text .buttons-box__outer {
+    width: 221px;
 }
 
 /* News */
