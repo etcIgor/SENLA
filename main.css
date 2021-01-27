@@ -982,9 +982,8 @@ header {
     height: 1px;
 }
 
-@media (max-width: 1366px) {
-    /*     header {
-        min-width: 1366px;
+/* @media (max-width: 1366px) {
+    body {
+        width: 1366px;
     }
- */
-}
+} */
