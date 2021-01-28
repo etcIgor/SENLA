@@ -242,18 +242,45 @@ header {
     padding: 54px 0 75px 0;
 }
 
-.wrapper-full.hearts {
+.hearts__wrapper {
     display: flex;
     padding: 0;
+    justify-content: space-between;
 }
 
-.hearts__img .block {
-    width: 843px;
-    background-color: #FAC832;
-    border-radius: 0 100em 100em 0;
+.hearts__img {
+    width: 100%;
+    background: url(img/hearts-dog.png) no-repeat, orange;
     height: 521px;
+    background-position: right 38px bottom 29px;
+    border-radius: 0 100em 100em 0;
     position: relative;
 }
+
+.hearts__img-inner {
+    width: 26%;
+    background: url(img/hearts-cat.png) no-repeat orange;
+    border-radius: 50%;
+    height: 45%;
+    border: 9px solid orange;
+    /* background-position: right -9px bottom 29px; */
+    position: absolute;
+    left: 68%;
+    top: 56%;
+}
+
+/* .hearts__img {
+    display: inline-block;
+    position: relative;
+} */
+
+/* .hearts__img::after {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 521px;
+    background: #AD7F00;
+} */
 
 .hearts__img-dog {
     position: absolute;
@@ -271,6 +298,7 @@ header {
 
 .hearts__text {
     margin: 74px 507px auto 94px;
+    width: 50%;
 }
 
 .hearts__text h3 {
@@ -347,7 +375,7 @@ header {
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
