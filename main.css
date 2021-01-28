@@ -250,48 +250,17 @@ header {
 
 .hearts__img {
     width: 100%;
-    background: url(img/hearts-dog.png) no-repeat, orange;
+    background: url(img/hearts-dog.png) no-repeat, #EEBF3A;
     height: 521px;
     background-position: right 38px bottom 29px;
     border-radius: 0 100em 100em 0;
     position: relative;
 }
 
-.hearts__img-inner {
-    width: 26%;
-    background: url(img/hearts-cat.png) no-repeat orange;
-    border-radius: 50%;
-    height: 45%;
-    border: 9px solid orange;
-    /* background-position: right -9px bottom 29px; */
-    position: absolute;
-    left: 68%;
-    top: 56%;
-}
-
-/* .hearts__img {
-    display: inline-block;
-    position: relative;
-} */
-
-/* .hearts__img::after {
-    content: "";
-    position: absolute;
-    width: 150%;
-    height: 521px;
-    background: #AD7F00;
-} */
-
-.hearts__img-dog {
-    position: absolute;
-    top: 28px;
-    left: 350px;
-}
-
 .hearts__img-cat {
-    position: absolute;
-    top: 57%;
-    left: 74.6%;
+    position: sticky;
+    top: 100%;
+    left: 100%;
     border: 9px solid #EEBF3A;
     border-radius: 50%;
 }
@@ -757,10 +726,13 @@ header {
     position: relative;
 }
 
-.volunt__img-dog {
-    position: absolute;
-    top: 28px;
-    left: 360px;
+.volunt__img {
+    width: 100%;
+    background: url(img/volunt-dog.png) no-repeat, #EEBF3A;
+    height: 521px;
+    background-position: right 38px bottom 29px;
+    border-radius: 0 100em 100em 0;
+    position: relative;
 }
 
 .volunt__text p {
@@ -943,8 +915,9 @@ header {
     background: url(img/thanks-bg.jpg) no-repeat;
     height: 741px;
     padding-top: 119px;
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
+    background-size: contain;
 }
 
 .thanks__block {
