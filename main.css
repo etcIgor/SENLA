@@ -246,8 +246,113 @@ header {
     display: flex;
     padding: 0;
     justify-content: space-between;
+    max-width: 1366px;
+    margin: 0 auto;
+    margin-left: 170px;
 }
 
+.hearts__img {
+    width: 50%;
+    position: relative;
+}
+
+.hearts__img::before {
+    content: '';
+    width: 50vw;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background-color: #FFC41E;
+}
+
+.hearts__img-big-circle {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 26px solid #FFC41E;
+}
+
+.hearts__img-big-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    height: 0;
+    background-color: #707070;
+}
+
+.hearts__img-small-circle {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 45%;
+    border: 9px solid #EEBF3A;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hearts__img-small-circle::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+    height: 0;
+    background-color: #363636;
+}
+
+/* !!!!Rum circle */
+
+/* .hearts__img {
+    width: 50%;
+    position: relative;
+}
+
+.hearts__img::before {
+    content: '';
+    width: 50vw;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background-color: #FFC41E;
+}
+
+.hearts__img-big-circle {
+    position: relative;
+}
+
+.hearts__img-small-circle {
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: -5%;
+    right: -5%;
+    width: 45%;
+}
+
+.hearts__img-big-circle::after {
+    background: blue;
+}
+
+.hearts__img-small-circle::after {
+    background: red;
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 26px solid #FFC41E;
+}
+
+.circle::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+    height: 0;
+} */
+
+/* !!!!!Rum circle */
+
+/* 
 .hearts__img {
     width: 100%;
     background: url(img/hearts-dog.png) no-repeat, #EEBF3A;
@@ -263,7 +368,7 @@ header {
     left: 100%;
     border: 9px solid #EEBF3A;
     border-radius: 50%;
-}
+} */
 
 .hearts__text {
     margin: 74px 507px auto 94px;
