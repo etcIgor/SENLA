@@ -245,8 +245,8 @@ header {
 .hearts__wrapper {
     display: flex;
     padding: 0;
-    justify-content: space-between;
-    max-width: 1081px;
+    justify-content: s;
+    max-width: 1146px;
     margin: 0 auto;
 }
 
@@ -299,8 +299,8 @@ header {
 }
 
 .hearts__text {
-    width: 50%;
-    margin-left: 94px;
+    max-width: 466px;
+    margin: 74px 67px 0 94px;
 }
 
 .hearts__text h3 {
@@ -741,26 +741,19 @@ header {
 
 .volunt__wrapper {
     display: flex;
-    max-width: 1271px;
+    max-width: 1064px;
+    margin-left: 349px;
 }
 
 .volunt__text {
-    margin: 113px 507px 112px 77px;
-    width: 50%;
+    margin-top: 113px;
+    margin-left: 77px;
+    width: 466px;
 }
 
 .volunt__text .block {
     width: 466px;
 }
-
-/* .volunt__img {
-    width: 100%;
-    background: url(img/volunt-dog.png) no-repeat, #EEBF3A;
-    height: 521px;
-    background-position: right 38px bottom 29px;
-    border-radius: 0 100em 100em 0;
-    position: relative;
-} */
 
 .volunt__img {
     position: relative;
