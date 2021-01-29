@@ -279,6 +279,8 @@ header {
     padding-bottom: 100%;
     height: 0;
     background-color: #707070;
+    background: url(img/hearts-dog.png) no-repeat;
+    background-size: cover;
 }
 
 .hearts__img-small-circle {
