@@ -246,9 +246,8 @@ header {
     display: flex;
     padding: 0;
     justify-content: space-between;
-    max-width: 1366px;
+    max-width: 1081px;
     margin: 0 auto;
-    margin-left: 170px;
 }
 
 .hearts__img {
@@ -295,86 +294,13 @@ header {
     display: block;
     padding-top: 100%;
     height: 0;
-    /*     background-color: #363636;
- */
     background: url(img/hearts-cat.png) no-repeat;
     background-size: cover;
 }
 
-/* !!!!Rum circle */
-
-/* .hearts__img {
-    width: 50%;
-    position: relative;
-}
-
-.hearts__img::before {
-    content: '';
-    width: 50vw;
-    position: absolute;
-    right: 50%;
-    top: 0;
-    bottom: 0;
-    background-color: #FFC41E;
-}
-
-.hearts__img-big-circle {
-    position: relative;
-}
-
-.hearts__img-small-circle {
-    position: absolute;
-    top: auto;
-    left: auto;
-    bottom: -5%;
-    right: -5%;
-    width: 45%;
-}
-
-.hearts__img-big-circle::after {
-    background: blue;
-}
-
-.hearts__img-small-circle::after {
-    background: red;
-}
-
-.circle {
-    border-radius: 50%;
-    overflow: hidden;
-    border: 26px solid #FFC41E;
-}
-
-.circle::after {
-    content: '';
-    display: block;
-    padding-bottom: 100%;
-    height: 0;
-} */
-
-/* !!!!!Rum circle */
-
-/* 
-.hearts__img {
-    width: 100%;
-    background: url(img/hearts-dog.png) no-repeat, #EEBF3A;
-    height: 521px;
-    background-position: right 38px bottom 29px;
-    border-radius: 0 100em 100em 0;
-    position: relative;
-}
-
-.hearts__img-cat {
-    position: sticky;
-    top: 100%;
-    left: 100%;
-    border: 9px solid #EEBF3A;
-    border-radius: 50%;
-} */
-
 .hearts__text {
-    margin: 74px 507px auto 94px;
     width: 50%;
+    margin-left: 94px;
 }
 
 .hearts__text h3 {
@@ -816,10 +742,10 @@ header {
 .volunt__wrapper {
     display: flex;
     max-width: 1271px;
-    margin: 0 auto;
 }
 
 .volunt__text {
+    margin: 113px 507px 112px 77px;
     width: 50%;
 }
 
