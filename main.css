@@ -961,20 +961,21 @@ header {
 }
 
 .thanks__wrapper {
-    background: url(img/thanks-bg.jpg) no-repeat;
+    background: url(img/thanks-bg2.jpg) no-repeat center;
     height: 741px;
     padding-top: 119px;
     max-width: 1920px;
     margin: 0 auto;
-    background-size: contain;
+    background-size: cover;
 }
 
 .thanks__block {
-    width: 615px;
+    min-width: 615px;
     height: 521px;
     display: flex;
     align-items: center;
     position: relative;
+    margin-right: 1305px;
 }
 
 .thanks__block::before {
@@ -987,13 +988,7 @@ header {
     mix-blend-mode: soft-light;
     border-radius: 0 100em 100em 0;
     background: #322D1E;
-}
-
-.thanks__block::after {
-    content: url(logo/thanks-paw.svg);
-    position: absolute;
-    top: 257px;
-    left: 484px;
+    min-width: 615px;
 }
 
 .thanks__block-text {
@@ -1002,7 +997,10 @@ header {
     line-height: 79px;
     color: #FFFFFF;
     margin: 0 auto;
-    width: 346px;
+    width: 70%;
+    position: relative;
+    background: url(logo/thanks-paw.svg) no-repeat 105% 107%;
+    padding-right: 80px;
 }
 
 /* Footer */
@@ -1076,18 +1074,31 @@ header {
     }
     .autohelp__wrapper {
         margin: 0;
-        margin-left: 434px;
+        margin-left: 402px;
         margin-top: 40px;
     }
-
-    .volunt__wrapper{
+    .volunt__wrapper {
         margin: 0;
         margin-left: 129px;
     }
-
-    .news__wrapper{
+    .news__wrapper {
         margin: 0;
         margin-left: 304px;
         max-width: 778px;
+    }
+    .about__wrapper {
+        margin-left: 402px;
+        margin-right: 284px;
+    }
+    /*     .thanks__wrapper {
+        background: url(img/thanks-bg.jpg) no-repeat center;
+        padding-top: 119px;
+        padding-bottom: 101px;
+        max-width: 1920px;
+        margin: 0 auto;
+        background-size: contain;
+    } */
+    .thanks__block {
+        width: 45%;
     }
 }
