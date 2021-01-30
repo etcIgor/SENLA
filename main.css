@@ -1083,3 +1083,5 @@ header {
         margin-left: 402px;
     }
 }
+
+@media (max-width: 639px) and (min-width: 360px) {}
