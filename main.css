@@ -311,10 +311,6 @@ header {
     color: #C78100;
 }
 
-.hearts__text p {
-    line-height: 140%;
-}
-
 /* Help */
 
 .help {
@@ -595,9 +591,8 @@ header {
 }
 
 .finance__wrapper {
-    width: 875px;
-    margin: 40px auto 0 197px;
-    margin: 24px auto 0 20px;
+    max-width: 875px;
+    margin: 0 auto;
 }
 
 .finance__wrapper {
@@ -665,8 +660,9 @@ header {
 }
 
 .goods__block {
-    margin: 53px 540px 0 702px;
     line-height: 140%;
+    max-width: 678px;
+    margin: 0 auto;
 }
 
 .goods__block h3 {
@@ -679,12 +675,17 @@ header {
 }
 
 .goods__block ul {
-    left: 14px;
     position: relative;
+    list-style: none;
 }
 
 .goods__block ul li {
     margin: 5px 0;
+}
+
+.goods__block ul li::before {
+    content: "\2022";
+    padding-right: 4px;
 }
 
 .goods__block-link {
@@ -724,8 +725,9 @@ header {
 
 .autohelp__wrapper {
     max-width: 688px;
-    margin: 45px 538px 0 694px;
     line-height: 140%;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 .autohelp__wrapper-text {
@@ -814,7 +816,8 @@ header {
 }
 
 .news__wrapper {
-    margin: 0px 538px 0px 604px;
+    max-width: 778px;
+    margin: 0 auto;
 }
 
 .news__block {
@@ -871,7 +874,8 @@ header {
 }
 
 .about__wrapper {
-    margin: 0px 538px 0px 702px;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 .about__text {
@@ -961,7 +965,7 @@ header {
 }
 
 .thanks__wrapper {
-    background: url(img/thanks-bg2.jpg) no-repeat center;
+    background: url(img/thanks-bg.jpg) no-repeat center;
     height: 741px;
     padding-top: 119px;
     max-width: 1920px;
@@ -992,6 +996,7 @@ header {
 }
 
 .thanks__block-text {
+    background: url(logo/thanks-paw.svg) no-repeat 105% 107%;
     font-weight: bold;
     font-size: 64px;
     line-height: 79px;
@@ -999,8 +1004,6 @@ header {
     margin: 0 auto;
     width: 70%;
     position: relative;
-    background: url(logo/thanks-paw.svg) no-repeat 105% 107%;
-    padding-right: 80px;
 }
 
 /* Footer */
