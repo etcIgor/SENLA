@@ -87,17 +87,18 @@ p {
 /* Header */
 
 header {
-    background: #F6F6F6;
     min-height: 834px;
+    background: #F6F6F6;
 }
 
 .header__wrapper {
-    width: 1146px;
+    max-width: 1146px;
     min-height: 713px;
     margin: auto;
-    background: url(img/header-dog.jpg) no-repeat right;
+    background: url(img/header-dog-w1920.jpg) no-repeat right;
     padding-top: 41px;
     position: relative;
+    border-radius: 0px 0px 8px 8px;
 }
 
 .header__wrapper-cat {
@@ -197,11 +198,9 @@ header {
 }
 
 .content__inscription {
-    max-width: 772px;
-    height: 404px;
     position: absolute;
-    left: -110px;
-    top: 370px;
+    left: -10%;
+    top: 57%;
 }
 
 .buttons-box__outer {
@@ -1084,4 +1083,21 @@ header {
     }
 }
 
-@media (max-width: 639px) and (min-width: 360px) {}
+@media (max-width: 639px) and (min-width: 360px) {
+    .content__heading {
+        font-size: 30px;
+    }
+    .content__goal {
+        font-size: 14px;
+    }
+    .content__title {
+        font-size: 12px;
+    }
+    .content__text {
+        font-size: 16px;
+    }
+    .header__wrapper {
+        max-width: 639px;
+        background: url(img/header-dog-w360.png) no-repeat right;
+    }
+}
