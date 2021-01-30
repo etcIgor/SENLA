@@ -988,7 +988,6 @@ header {
     mix-blend-mode: soft-light;
     border-radius: 0 100em 100em 0;
     background: #322D1E;
-    min-width: 615px;
 }
 
 .thanks__block-text {
