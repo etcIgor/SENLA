@@ -569,6 +569,12 @@ header {
     padding-bottom: 78px;
 }
 
+.finance__wrapper {
+    max-width: 875px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
 .finance__block {
     display: flex;
     margin-top: 40px;
@@ -576,7 +582,6 @@ header {
 
 .finance__title {
     text-align: center;
-    margin: 57px auto 0 20px;
     max-width: 758px;
 }
 
@@ -588,15 +593,6 @@ header {
     font-size: 18px;
     line-height: 24px;
     color: #6B6B6B;
-}
-
-.finance__wrapper {
-    max-width: 875px;
-    margin: 0 auto;
-}
-
-.finance__wrapper {
-    margin: 40px 463px 0 584px;
 }
 
 .finance__col {
@@ -1066,8 +1062,7 @@ header {
 
 @media (max-width: 1366px) and (min-width: 1270px) {
     .finance__wrapper {
-        margin: 0 auto;
-        margin-left: 284px;
+        margin-left: 300px;
     }
     .goods__block {
         line-height: 140%;
@@ -1076,32 +1071,16 @@ header {
         margin-left: 402px;
     }
     .autohelp__wrapper {
-        margin: 0;
         margin-left: 402px;
-        margin-top: 40px;
     }
     .volunt__wrapper {
-        margin: 0;
         margin-left: 129px;
     }
     .news__wrapper {
         margin: 0;
         margin-left: 304px;
-        max-width: 778px;
     }
     .about__wrapper {
         margin-left: 402px;
-        margin-right: 284px;
-    }
-    /*     .thanks__wrapper {
-        background: url(img/thanks-bg.jpg) no-repeat center;
-        padding-top: 119px;
-        padding-bottom: 101px;
-        max-width: 1920px;
-        margin: 0 auto;
-        background-size: contain;
-    } */
-    .thanks__block {
-        width: 45%;
     }
 }
