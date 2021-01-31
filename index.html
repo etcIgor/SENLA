@@ -15,32 +15,36 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="wrapper-full">
-            <div class="header__wrapper">
-                <nav class="main-menu">
-                    <ul class="main-menu__links">
-                        <li><a href="#">Как помочь</a></li>
-                        <li><a href="#">Подопечные животные</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                    <div class="main-menu__social">
-                        <div class="social-box__outer vk">
-                            <div class="social-box__inner">
-                                <a href="#https://vk.com/animalsgrodno" class="vk"><img src="logo/vk-white.svg"
-                                        alt="logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="social-box__outer inst">
-                            <div class="social-box__inner">
-                                <a href="#https://www.instagram.com/animalsgrodno/" class="inst"><img
-                                        src="logo/inst-white.svg" alt="logo"></a>
-                            </div>
+        <div class="header__container">
+            <nav class="header__menu">
+                <ul class="header__menu-links">
+                    <li><a href="#">Как помочь</a></li>
+                    <li><a href="#">Подопечные животные</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="header__menu-social">
+                    <div class="social-box__outer vk">
+                        <div class="social-box__inner">
+                            <a href="#https://vk.com/animalsgrodno" class="vk"><img src="logo/vk-white.svg" alt="logo">
+                            </a>
                         </div>
                     </div>
-                </nav>
-                <div class="main-menu__content">
+                    <div class="social-box__outer inst">
+                        <div class="social-box__inner">
+                            <a href="#https://www.instagram.com/animalsgrodno/" class="inst"><img
+                                    src="logo/inst-white.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="header__intro">
+            <div class="header__wrapper">
+                <div class="header__content">
                     <h1 class="content__heading">Спаси жизнь</h1>
                     <p class="content__title">Благотворительное общественное объединение защиты животных</p>
                     <p class="content__goal">Наша цель: помощь бездомным животных. Мы поддерживаем хвостиков,
@@ -56,7 +60,6 @@
                         <button href="#" class="buttons-1">Хочу помочь</button>
                     </div>
                 </div>
-
                 <picture>
                     <source media="(max-width: 639px)" srcset="img/header-cat-w360.png" />
                     <img src="img/header-cat-w1920.png" alt="cat" class="header__wrapper-cat">
@@ -66,13 +69,9 @@
                     <source media="(max-width: 639px)" srcset="img/header-inscription-w360.svg" />
                     <img src="img/header-inscription-w1920.svg" alt="inscription" class="content__inscription">
                 </picture>
-
             </div>
-        </div>
-    </header>
-
-    <main>
-        <div class="hearts">
+        </section>
+        <section class="hearts">
             <div class="wrapper-full">
                 <div class="hearts__wrapper">
 
@@ -96,7 +95,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- Help -->
         <section class="help">
             <div class="wrapper-full">

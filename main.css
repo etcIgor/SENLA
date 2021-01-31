@@ -40,7 +40,6 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 140%;
     color: #242424;
 }
 
@@ -87,8 +86,25 @@ p {
 /* Header */
 
 header {
-    min-height: 834px;
+    padding-top: 36px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1146px;
+    /* padding: 0 15px; */
+    margin: 0 auto;
+}
+
+.header__intro {
     background: #F6F6F6;
+    padding-bottom: 121px;
 }
 
 .header__wrapper {
@@ -96,7 +112,7 @@ header {
     min-height: 713px;
     margin: auto;
     background: url(img/header-dog-w1920.jpg) no-repeat right;
-    padding-top: 41px;
+    padding-top: 164px;
     position: relative;
     border-radius: 0px 0px 8px 8px;
 }
@@ -114,7 +130,7 @@ header {
     z-index: -1;
 }
 
-.main-menu {
+.header__menu {
     display: flex;
     align-items: center;
     min-height: 49px;
@@ -122,20 +138,20 @@ header {
     margin-right: 73px;
 }
 
-.main-menu__links {
+.header__menu-links {
     display: flex;
     list-style-type: none;
 }
 
-.main-menu__links li {
+.header__menu-links li {
     margin-right: 28px;
 }
 
-.main-menu__links li:nth-child(2) {
-    margin-right: 194px;
+.header__menu-links li:nth-child(2) {
+    margin-right: 200px;
 }
 
-.main-menu__links a {
+.header__menu-links a {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -144,25 +160,31 @@ header {
     text-decoration: none;
 }
 
-.main-menu__links ul:nth-child(3) {
+.header__menu-links ul:nth-child(3) {
     margin-left: 192px;
 }
 
-.main-menu__links ul:last-child {
+.header__menu-links ul:last-child {
     margin-right: 0px;
 }
 
-.main-menu__social {
+.header__menu-social {
     display: flex;
 }
 
-.main-menu__social .social-box__outer.inst {
+.header__menu-social .social-box__outer.inst {
     margin-left: 28px;
 }
 
-.main-menu__content {
+/* Header-intro */
+
+.header__intro {
+    background: #F6F6F6;
+    padding-bottom: 121px;
+}
+
+.header__content {
     width: 602px;
-    margin-top: 83px;
 }
 
 .content__heading {
@@ -181,7 +203,6 @@ header {
 
 .content__goal {
     font-weight: 600;
-    line-height: 140%;
     color: #474747;
     margin-top: 12px;
 }
