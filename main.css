@@ -56,8 +56,8 @@ p {
 /* Social icons */
 
 .vk, .inst {
-    width: 49px;
-    height: 49px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,11 +100,6 @@ header {
     max-width: 1146px;
     /* padding: 0 15px; */
     margin: 0 auto;
-}
-
-.header__intro {
-    background: #F6F6F6;
-    padding-bottom: 121px;
 }
 
 .header__wrapper {
@@ -295,7 +290,7 @@ header {
     content: "";
     display: block;
     padding-top: 100%;
-    background: url(img/hearts-dog.png) no-repeat;
+    background: url(img/hearts-dog-w1920.png) no-repeat;
     background-size: cover;
 }
 
@@ -352,6 +347,7 @@ header {
 
 .help__block {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 47px;
     text-align: center;
     justify-content: space-between;
@@ -981,7 +977,7 @@ header {
 }
 
 .thanks__wrapper {
-    background: url(img/thanks-bg.jpg) no-repeat center;
+    background: url(img/thanks-bg-w1920.jpg) no-repeat center;
     height: 741px;
     padding-top: 119px;
     max-width: 1920px;
@@ -1033,6 +1029,7 @@ header {
 .footer__links {
     align-content: center;
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
 }
@@ -1115,37 +1112,81 @@ header {
     .content__goal {
         font-size: 14px;
         max-width: 158px;
+        line-height: 140%;
+        margin-top: 20px;
     }
     .content__title {
         font-size: 12px;
         max-width: 211px;
+        line-height: 14px;
     }
     .content__text {
         font-size: 16px;
         max-width: 300px;
+        line-height: 19px;
+        margin-top: 92px;
+        text-align: center;
+    }
+    .content__inscription {
+        left: 0%;
+        top: 47%;
+    }
+    .buttons-box__outer {
+        margin-top: 20px;
+        margin-left: 58px;
+    }
+    header {
+        padding-top: 24px;
     }
     .header__wrapper {
         max-width: 360px;
-        background: url(img/header-dog-w360.png) no-repeat right;
+        background: url(img/header-dog-w360.png) no-repeat right top;
         padding-left: 30px;
+        padding-top: 76px;
+        min-height: 566px;
+    }
+    .header__intro {
+        padding-bottom: 0;
     }
     .header__wrapper-cat {
-        left: 38%;
-        top: 60%;
+        left: 40%;
+        top: 35%;
+    }
+    .header__menu-social .social-box__outer.inst {
+        margin-left: 14px;
+    }
+    .header__menu {
+        min-height: 0;
+    }
+    .header__container {
+        width: 300px;
     }
     .hearts__wrapper {
         flex-direction: column;
     }
     .help__block {
-        flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .help__title {
+        font-size: 18px;
+    }
+    .help__item {
+        max-width: 142px;
+        margin-top: 24px;
     }
     .help__item-icon {
         width: 80px;
         height: 80px;
+        align-items: center;
     }
     .help__item-icon img {
-        width: 50px;
+        width: 40px;
+    }
+    .help__item .subline {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
     }
     .logo-img {
         width: 63px;
@@ -1154,6 +1195,7 @@ header {
     .home__intro {
         display: block;
         margin: 0;
+        padding-bottom: 0;
     }
     .home__block {
         display: block;
@@ -1200,5 +1242,60 @@ header {
     }
     .thanks__block-text {
         background: url(logo/thanks-paw-w360.svg) no-repeat 41% 107%;
+    }
+    .thanks__wrapper {
+        background: url(img/thanks-bg-w360.png) no-repeat center;
+        background-size: contain
+    }
+    .thanks__block {
+        display: none;
+    }
+    .social-box__inner img {
+        max-width: 15px;
+    }
+    .social-box__outer {
+        width: 32px;
+        height: 32px;
+    }
+    .social-box__inner {
+        width: 26px;
+        height: 26px;
+    }
+    .content__heading {
+        line-height: normal;
+    }
+    .hearts {
+        padding-top: 16px;
+        padding-bottom: 0;
+    }
+    .hearts__img-big-circle {
+        border: 7px solid #FFC41E;
+    }
+    .hearts__img-big-circle::after {
+        background: url(img/hearts-dog-w360.svg) no-repeat;
+        background-size: cover;
+    }
+    .hearts__img-small-circle {
+        border: 3px solid #FFC41E;
+    }
+    .hearts__img {
+        width: 50%;
+        position: relative;
+        margin-left: 67px;
+    }
+    .hearts__text {
+        padding: 32px 30px 16px;
+        margin: 0;
+    }
+    .hearts__text h3 {
+        font-size: 16px;
+    }
+    .hearts__text p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .help {
+        padding-top: 32px;
+        padding-bottom: 40px;
     }
 }
