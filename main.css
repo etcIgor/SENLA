@@ -184,7 +184,7 @@ header {
 }
 
 .header__content {
-    width: 602px;
+    max-width: 602px;
 }
 
 .content__heading {
@@ -533,7 +533,7 @@ header {
     top: 26px;
     background: #AD7F00;
     height: 1px;
-    width: 197px;
+    max-width: 197px;
 }
 
 .view-all::before {
@@ -766,7 +766,7 @@ header {
 .volunt__text {
     margin-top: 113px;
     margin-left: 77px;
-    width: 466px;
+    max-width: 466px;
 }
 
 .volunt__text .block {
@@ -827,7 +827,7 @@ header {
 
 .news__title {
     margin-left: 195px;
-    width: 368px;
+    max-width: 368px;
     text-align: center;
 }
 
@@ -872,7 +872,7 @@ header {
     top: 31px;
     background: #AD7F00;
     height: 1px;
-    width: 206px;
+    max-width: 206px;
 }
 
 /* About */
@@ -885,7 +885,7 @@ header {
 
 .about__title {
     margin-left: 193px;
-    width: 175px;
+    max-width: 175px;
     text-align: center;
 }
 
@@ -1011,7 +1011,7 @@ header {
 }
 
 .thanks__block-text {
-    background: url(logo/thanks-paw.svg) no-repeat 105% 107%;
+    background: url(logo/thanks-paw-w1920.svg) no-repeat 105% 107%;
     font-weight: bold;
     font-size: 64px;
     line-height: 79px;
@@ -1079,7 +1079,7 @@ header {
     height: 1px;
 }
 
-@media (max-width: 1366px) and (min-width: 1270px) {
+@media (max-width: 1366px) {
     .finance__wrapper {
         margin-left: 300px;
     }
@@ -1104,21 +1104,101 @@ header {
     }
 }
 
-@media (max-width: 639px) and (min-width: 360px) {
+@media (max-width: 360px) {
+    .header__menu-links {
+        display: none;
+    }
     .content__heading {
         font-size: 30px;
+        line-height: 0;
     }
     .content__goal {
         font-size: 14px;
+        max-width: 158px;
     }
     .content__title {
         font-size: 12px;
+        max-width: 211px;
     }
     .content__text {
         font-size: 16px;
+        max-width: 300px;
     }
     .header__wrapper {
-        max-width: 639px;
+        max-width: 360px;
         background: url(img/header-dog-w360.png) no-repeat right;
+        padding-left: 30px;
+    }
+    .header__wrapper-cat {
+        left: 38%;
+        top: 60%;
+    }
+    .hearts__wrapper {
+        flex-direction: column;
+    }
+    .help__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .help__item-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .help__item-icon img {
+        width: 50px;
+    }
+    .logo-img {
+        width: 63px;
+        height: 47px;
+    }
+    .home__intro {
+        display: block;
+        margin: 0;
+    }
+    .home__block {
+        display: block;
+    }
+    .view-all::before {
+        left: 79%;
+    }
+    .finance__wrapper {
+        margin-left: 0;
+    }
+    .finance__block {
+        display: block;
+    }
+    .goods__block {
+        margin-left: 0;
+    }
+    .autohelp__wrapper {
+        margin: 0;
+    }
+    .volunt__wrapper {
+        display: block;
+    }
+    .volunt__text {
+        margin: 0;
+    }
+    .news__wrapper {
+        margin: 0;
+    }
+    .news__title {
+        margin: 0;
+    }
+    .news__block-text p {
+        font-size: 14px;
+    }
+    .about__wrapper {
+        margin: 0;
+    }
+    .about__title {
+        margin: 0;
+    }
+    .thanks__block-text {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .thanks__block-text {
+        background: url(logo/thanks-paw-w360.svg) no-repeat 41% 107%;
     }
 }
