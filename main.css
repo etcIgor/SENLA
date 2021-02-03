@@ -827,7 +827,7 @@ header {
     content: "";
     position: relative;
     padding-top: 100%;
-    background: url(img/volunt-dog.png) no-repeat;
+    background: url(img/volunt-dog-w1920.png) no-repeat;
     background-size: cover;
     display: block;
 }
@@ -1138,9 +1138,14 @@ header {
 @media (max-width: 360px) {
     h3 {
         font-size: 16px;
+        text-align: center;
     }
     p {
         font-size: 14px;
+        line-height: 140%;
+    }
+    .buttons-1, .buttons-2 {
+        font-size: 18px;
     }
     .wrapper-full {
         padding: 0 30px;
@@ -1261,9 +1266,7 @@ header {
         margin: 0;
     }
     .volunt__wrapper {
-        display: block;
-    }
-    .volunt__text {
+        flex-direction: column;
         margin: 0;
     }
     .news__wrapper {
@@ -1326,7 +1329,7 @@ header {
     .hearts__img {
         width: 50%;
         position: relative;
-        margin-left: 67px;
+        margin-left: 50px;
     }
     .hearts__text {
         padding: 32px 30px 16px;
@@ -1476,5 +1479,44 @@ header {
     }
     .goods__block-link::after {
         left: 40px;
+    }
+    .autohelp__wrapper {
+        padding-top: 24px;
+    }
+    .autohelp__wrapper .buttons-box__outer {
+        margin: 16px auto 0;
+    }
+    .autohelp__wrapper-title {
+        text-align: center;
+    }
+    .volunt {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+    .volunt__img {
+        width: 50%;
+        position: relative;
+        margin-left: 50px;
+    }
+    .volunt__img-big-circle::after {
+        background: url(img/volunt-dog-w360.svg) no-repeat;
+        background-size: cover;
+    }
+    .volunt__img-big-circle {
+        border: 7px solid #FFC41E;
+    }
+    .volunt__wrapper {
+        padding-top: 27px;
+    }
+    .volunt__text {
+        margin: 0;
+        margin-top: 24px;
+    }
+    .volunt__text p {
+        padding-top: 16px;
+    }
+    .volunt__text .buttons-box__outer {
+        margin: 0 auto;
+        margin-top: 16px;
     }
 }
