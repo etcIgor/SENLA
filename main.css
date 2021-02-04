@@ -872,12 +872,12 @@ header {
     margin-top: 40px;
 }
 
-.news__block.bottom {
-    margin-top: 40px;
-}
-
 .news__block-text {
     padding-left: 35px;
+}
+
+.news__block-dog-img {
+    max-width: none;
 }
 
 .news__block-text p:nth-child(2) {
@@ -896,13 +896,14 @@ header {
 }
 
 .news__all::after {
+    max-width: 206px;
     content: "";
     position: absolute;
     left: 0;
     top: 31px;
     background: #AD7F00;
     height: 1px;
-    max-width: 206px;
+    width: 216px;
 }
 
 /* About */
@@ -914,8 +915,6 @@ header {
 }
 
 .about__title {
-    margin-left: 193px;
-    max-width: 175px;
     text-align: center;
 }
 
@@ -1518,5 +1517,62 @@ header {
     .volunt__text .buttons-box__outer {
         margin: 0 auto;
         margin-top: 16px;
+    }
+    .news {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .news__block {
+        margin-top: 25px;
+        padding-left: 95px;
+        position: relative;
+    }
+    .news__block .news__block-dog-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .news__block-text {
+        padding-left: 0;
+    }
+    .news__all {
+        margin-top: 16px;
+        text-align: center;
+    }
+    .news__block-text p:nth-child(2) {
+        margin: 0;
+    }
+    .news__all::after {
+        left: 47px;
+    }
+    .about {
+        padding-top: 32px;
+    }
+    .thanks__wrapper {
+        max-height: 267px;
+    }
+    .about__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about__contacts-title {
+        font-size: 18px;
+    }
+    .about__contacts {
+        margin-top: 32px;
+    }
+    .about__contacts-text {
+        margin-top: 18px;
+    }
+    .about__footer {
+        display: flex;
+        margin-top: 24px;
+    }
+    .about__footer-text {
+        margin: 0;
+    }
+    .about__footer-social {
+        margin-top: 0;
+        height: 0;
     }
 }
