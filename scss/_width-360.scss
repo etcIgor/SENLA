@@ -1,0 +1,452 @@
+@media (max-width: 360px) {
+    h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .buttons-1 {
+        font-size: 18px;
+    }
+    .buttons-2 {
+        font-size: 18px;
+    }
+    .wrapper-full {
+        padding: 0 30px;
+    }
+    .logo-img {
+        width: 63px;
+        height: 47px;
+        margin: 0 49px;
+    }
+    b {
+        font-weight: 500;
+    }
+    strong {
+        font-weight: 500;
+    }
+    .header__menu-links {
+        display: none;
+    }
+    .content__heading {
+        font-size: 30px;
+        line-height: 0;
+        line-height: normal;
+    }
+    .content__goal {
+        font-size: 14px;
+        max-width: 158px;
+        line-height: 140%;
+        margin-top: 20px;
+    }
+    .content__title {
+        font-size: 12px;
+        max-width: 211px;
+        line-height: 14px;
+    }
+    .content__text {
+        font-size: 16px;
+        max-width: 300px;
+        line-height: 19px;
+        margin-top: 92px;
+        text-align: center;
+    }
+    .content__inscription {
+        left: 0%;
+        top: 47%;
+    }
+    .buttons-box__outer {
+        margin-top: 20px;
+        margin-left: 58px;
+    }
+    header {
+        padding-top: 24px;
+    }
+    .header__wrapper {
+        max-width: 360px;
+        background: url(img/header-dog-w360.png) no-repeat right top;
+        padding-left: 30px;
+        padding-top: 76px;
+        min-height: 566px;
+    }
+    .header__intro {
+        padding-bottom: 0;
+    }
+    .header__wrapper-cat {
+        left: 40%;
+        top: 42%;
+    }
+    .header__menu-social {
+        .social-box__outer.inst {
+            margin-left: 14px;
+        }
+    }
+    .header__menu {
+        min-height: 0;
+    }
+    .header__container {
+        width: 300px;
+    }
+    .hearts__wrapper {
+        flex-direction: column;
+    }
+    .help__block {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .help__title {
+        font-size: 18px;
+    }
+    .help__item {
+        max-width: 142px;
+        margin-top: 24px;
+        .subline {
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 8px;
+        }
+    }
+    .help__item-icon {
+        width: 80px;
+        height: 80px;
+        align-items: center;
+        img {
+            width: 40px;
+        }
+    }
+    .home__intro {
+        margin: 0;
+        padding-bottom: 0;
+        grid-column: span 2;
+    }
+    .view-all {
+        &::before {
+            left: 79%;
+        }
+    }
+    .finance__wrapper {
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .finance__block {
+        flex-flow: column;
+    }
+    .goods__block {
+        margin-left: 0;
+        h3 {
+            padding-bottom: 16px;
+        }
+    }
+    .autohelp__wrapper {
+        margin: 0;
+        padding-top: 24px;
+        .buttons-box__outer {
+            margin: 16px auto 0;
+        }
+    }
+    .volunt__wrapper {
+        flex-direction: column;
+        margin: 0;
+        padding-top: 27px;
+    }
+    .news__wrapper {
+        margin: 0;
+    }
+    .news__title {
+        margin: 0;
+    }
+    .news__block-text {
+        p {
+            font-size: 14px;
+            &:nth-child(2) {
+                margin: 0;
+            }
+        }
+        padding-left: 0;
+    }
+    .about__wrapper {
+        margin: 0;
+    }
+    .about__title {
+        margin: 0;
+    }
+    .thanks__block-text {
+        font-size: 30px;
+        line-height: 36px;
+        background: url(logo/thanks-paw-w360.svg) no-repeat 41% 107%;
+    }
+    .thanks__wrapper {
+        background: url(img/thanks-bg-w360.png) no-repeat center;
+        background-size: contain;
+        max-height: 267px;
+    }
+    .thanks__block {
+        display: none;
+    }
+    .social-box__inner {
+        img {
+            max-width: 15px;
+        }
+        width: 26px;
+        height: 26px;
+    }
+    .social-box__outer {
+        width: 32px;
+        height: 32px;
+    }
+    .hearts {
+        padding-top: 16px;
+        padding-bottom: 0;
+    }
+    .hearts__img-big-circle {
+        border: 7px solid #ffc41e;
+        &::after {
+            background: url(img/hearts-dog-w360.svg) no-repeat;
+            background-size: cover;
+        }
+    }
+    .hearts__img-small-circle {
+        border: 3px solid #ffc41e;
+    }
+    .hearts__img {
+        width: 50%;
+        position: relative;
+        margin-left: 50px;
+    }
+    .hearts__text {
+        padding: 32px 30px 16px;
+        margin: 0;
+        h3 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 140%;
+        }
+    }
+    .help {
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+    .home {
+        padding-bottom: 28px;
+    }
+    .home__intro-col {
+        grid-column: span 2;
+        h3 {
+            font-size: 16px;
+            margin-top: 24px;
+            text-align: center;
+        }
+        p {
+            font-size: 14px;
+            line-height: 140%;
+            margin: 16px 30px 0;
+        }
+    }
+    .home__title {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .home__block {
+        margin-top: 16px;
+        row-gap: 22px;
+    }
+    .tenants-block__item {
+        padding: 14px 14px 18px 14px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .tenants-content__text {
+        .gender {
+            margin-top: 12px;
+            text-align: start;
+        }
+    }
+    .tenants-content__title {
+        &::after {
+            top: 25px;
+            width: 270px;
+        }
+    }
+    .tenants-block__buttons {
+        .buttons-box__outer {
+            width: 174px;
+            &:last-of-type {
+                width: 242px;
+                margin-top: 20px;
+            }
+        }
+        .buttons-1 {
+            width: 164px;
+            font-size: 18px;
+        }
+        .buttons-2 {
+            font-size: 18px;
+            width: 229px;
+        }
+    }
+    .home__footer {
+        margin-top: 40px;
+    }
+    .home__footer-text {
+        font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .home__footer-social {
+        margin-top: 6px;
+        margin-left: 0;
+        .social-box__outer.vk {
+            margin-right: 48px;
+        }
+    }
+    .finance {
+        padding-top: 22px;
+        padding-bottom: 16px;
+    }
+    .finance__text {
+        margin: 0;
+        margin-top: 16px;
+        font-size: 16px;
+    }
+    .finance__col {
+        width: 100%;
+        ul {
+            margin-top: 16px;
+            font-size: 14px;
+        }
+    }
+    .finance__col.left {
+        h3 {
+            font-size: 20px;
+        }
+        .buttons-box__outer {
+            width: 194px;
+            margin-top: 16px;
+            .buttons-1 {
+                width: 184px;
+                font-size: 18px;
+            }
+        }
+    }
+    .finance__col.right {
+        h3 {
+            font-size: 20px;
+            margin-top: 32px;
+        }
+    }
+    .finance__col-link {
+        display: none;
+    }
+    .goods {
+        padding-top: 37px;
+        padding-bottom: 42px;
+    }
+    .goods__block-feed {
+        font-size: 14px;
+        line-height: 140%;
+        h3 {
+            margin-top: 29px;
+        }
+        p {
+            color: grey;
+        }
+    }
+    .goods__block-drugs {
+        font-size: 14px;
+    }
+    .goods__block-others {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .goods__block-link {
+        display: block;
+        text-align: center;
+        &::after {
+            left: 40px;
+        }
+    }
+    .autohelp__wrapper-title {
+        text-align: center;
+    }
+    .volunt {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+    .volunt__img {
+        width: 50%;
+        position: relative;
+        margin-left: 50px;
+    }
+    .volunt__img-big-circle {
+        &::after {
+            background: url(img/volunt-dog-w360.svg) no-repeat;
+            background-size: cover;
+        }
+        border: 7px solid #ffc41e;
+    }
+    .volunt__text {
+        margin: 0;
+        margin-top: 24px;
+        p {
+            padding-top: 16px;
+        }
+        .buttons-box__outer {
+            margin: 0 auto;
+            margin-top: 16px;
+        }
+    }
+    .news {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .news__block {
+        margin-top: 25px;
+        padding-left: 95px;
+        position: relative;
+        .news__block-dog-img {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .news__all {
+        margin-top: 16px;
+        text-align: center;
+        &::after {
+            left: 47px;
+        }
+    }
+    .about {
+        padding-top: 32px;
+    }
+    .about__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about__contacts-title {
+        font-size: 18px;
+    }
+    .about__contacts {
+        margin-top: 32px;
+    }
+    .about__contacts-text {
+        margin-top: 18px;
+    }
+    .about__footer {
+        display: flex;
+        margin-top: 24px;
+    }
+    .about__footer-text {
+        margin: 0;
+    }
+    .about__footer-social {
+        margin-top: 0;
+        height: 0;
+    }
+}
